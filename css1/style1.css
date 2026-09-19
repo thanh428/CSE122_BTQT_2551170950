@@ -1,13 +1,5 @@
-div.container {
-    background-color: #FFFDE7;
-    border: 1px solid #9E9E9E;
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 h1 {
-    color:  #D40000;
+    color: #D40000;
     text-align: center;
     text-transform: uppercase;
     background-color: pink;
@@ -21,6 +13,10 @@ p {
     text-align: center;
     font-family: "times new roman", times, serif;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 p.first, p.third {
     color: #0033CC;
     font-style: italic;
@@ -29,8 +25,20 @@ p.second {
     color: #D40000;
     font-style: italic;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 hr {
     width: 55%;
     color: #0033CC;
     box-align: center;
+}
+
+div.container {
+    background-color:  #FFFDE7;
+    border: 1px solid #9E9E9E;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
