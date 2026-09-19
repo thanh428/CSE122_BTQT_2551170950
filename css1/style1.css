@@ -1,0 +1,55 @@
+div.container {
+    background-color: #FFFDE7;
+    border: 1px solid #9E9E9E;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color:  #D40000;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: pink;
+    font-family: "times new roman", times, serif;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "times new roman", times, serif;
+}
+
+p.first {
+    color: #0033CC;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+    font-family: "times new roman", times, serif;
+}
+
+p.second {
+    color: #D40000;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+    font-family: "times new roman", times, serif;
+}
+
+p.third {
+    color: #0033CC;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+    font-family: "times new roman", times, serif;
+}
+hr {
+    width: 55%;
+    color: #0033CC;
+    box-align: center;
+}
