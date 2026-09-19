@@ -21,32 +21,13 @@ p {
     text-align: center;
     font-family: "times new roman", times, serif;
 }
-
-p.first {
+p.first, p.third {
     color: #0033CC;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
     font-style: italic;
-    font-family: "times new roman", times, serif;
 }
-
 p.second {
     color: #D40000;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
     font-style: italic;
-    font-family: "times new roman", times, serif;
-}
-
-p.third {
-    color: #0033CC;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    font-style: italic;
-    font-family: "times new roman", times, serif;
 }
 hr {
     width: 55%;
