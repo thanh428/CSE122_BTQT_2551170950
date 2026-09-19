@@ -4,8 +4,24 @@ body {
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 40px;
-    }
+}
 div.container {
             max-width: 900px;
             margin: 0 auto;
-    }
+}
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.img-right {
+    float: right;
+    width: 320px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+}
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
