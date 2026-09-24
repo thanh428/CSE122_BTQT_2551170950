@@ -13,17 +13,6 @@
             text-transform: uppercase;
 }
 
-.title h1 {
-            margin: 0;
-            font-size: 28px;
-            font-weight: bold;
-}
-
-.title h2 {
-            margin: 5px 0 20px 0;
-            font-size: 20px;
-            font-weight: bold;
-}
 
 .image {
             margin-bottom: 20px;
