@@ -13,10 +13,12 @@ p {
     text-align: center;
     font-family: "times new roman", times, serif;
 }
+
 p.first, p.third {
     color: #0033CC;
     font-style: italic;
 }
+
 p.second {
     color: #D40000;
     font-style: italic;
