@@ -1,0 +1,121 @@
+
+        .profile-card {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            width: 100%;
+            max-width: 900px;
+            overflow: hidden;
+            margin: 40px auto;
+        }
+
+        .left-col {
+            background: linear-gradient(to bottom, #1565C0, #0d3f7a);
+            color: #FFFFFF;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .avatar {
+            background-color: #FFFFFF;
+            color: #1565C0;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            font-weight: bold;
+            margin: 0 auto 20px auto;
+        }
+
+        .left-col h1 {
+            font-size: 24px;
+            margin: 0 0 5px 0;
+        }
+
+        .left-col .subtitle {
+            font-size: 14px;
+            margin: 0 0 30px 0;
+        }
+
+        .contact-info {
+            list-style-type: none;
+            text-align: left;
+            font-size: 14px;
+            padding-left: 10px;
+            margin: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 15px;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            width: 16px;
+            text-align: center;
+        }
+
+        .right-col {
+            padding: 40px;
+        }
+
+        .right-col h2 {
+            color: #1565C0;
+            font-size: 18px;
+            border-bottom: 2px solid #e3f0ff;
+            padding-bottom: 8px;
+            margin: 25px 0 15px 0;
+        }
+
+        .right-col h2:first-child {
+            margin-top: 0;
+        }
+
+        .right-col p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #333;
+            margin: 0 0 15px 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .chip {
+            background-color: #e3f0ff;
+            color: #0d3f7a;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .links {
+            margin-top: 5px;
+        }
+
+        .links a {
+            color: #1565C0;
+            text-decoration: underline;
+            margin-right: 5px;
+        }
+        
+        .links a::after {
+            content: " · ";
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 5px;
+        }
+        
+        .links a:last-child::after {
+            content: "";
+        }
