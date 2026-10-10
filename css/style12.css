@@ -1,0 +1,69 @@
+/* Nền trang sử dụng ảnh nền Nen.gif lặp (hoặc màu dự phòng nếu chưa có ảnh) */
+body {
+    background-image: url('../images/Nen.gif');
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Khung lịch tổng thể */
+.calendar-card {
+    width: 480px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+/* Ô lịch phía trên */
+.calendar-display {
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+/* Năm / Số ngày: chữ màu #C62828[cite: 2] */
+.year-text {
+    color: #C62828;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.day-number {
+    color: #C62828;
+    font-size: 52px; /* Số ngày cỡ rất lớn 52px[cite: 2] */
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 10px 0;
+}
+
+/* Tháng / Thứ: chữ màu #1565C0, cỡ 18px[cite: 2] */
+.month-text, .weekday-text {
+    color: #1565C0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Lời chào: chữ #C62828, in nghiêng[cite: 2] */
+.greeting-text {
+    color: #C62828;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Form nhập: viền #1565C0[cite: 2] */
+.input-form-box {
+    border: 1px solid #1565C0;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+/* Nút In lịch màu xám xanh */
+.btn-custom-print {
+    background-color: #5c768d;
+    color: white;
+    border: none;
+}
+
+.btn-custom-print:hover {
+    background-color: #4b6173;
+    color: white;
+}

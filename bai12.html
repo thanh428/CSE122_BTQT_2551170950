@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style12.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="calendar-card p-4 bg-white shadow-sm">
+            <div id="calendarDisplay" class="calendar-display text-center p-4 mb-3">
+                <div id="yearDisplay" class="year-text">2026</div>
+                <div id="monthDisplay" class="month-text">Tháng 12</div>
+                <div id="dayDisplay" class="day-number">24</div>
+                <div id="weekdayDisplay" class="weekday-text">Thứ hai</div>
+            </div>
+            <div id="greetingDisplay" class="greeting-text text-center mb-4">
+                Chào buổi sáng!
+            </div>
+            <div class="input-form-box p-3">
+                <div class="row g-2 align-items-end justify-content-center">
+                    <div class="col-3">
+                        <label for="inputDay" class="form-label text-center w-100 mb-1">Ngày</label>
+                        <input type="number" id="inputDay" class="form-control text-center" value="24">
+                    </div>
+                    <div class="col-3">
+                        <label for="inputMonth" class="form-label text-center w-100 mb-1">Tháng</label>
+                        <input type="number" id="inputMonth" class="form-control text-center" value="12">
+                    </div>
+                    <div class="col-3">
+                        <label for="inputYear" class="form-label text-center w-100 mb-1">Năm</label>
+                        <input type="number" id="inputYear" class="form-control text-center" value="2026">
+                    </div>
+                    <div class="col-3 text-center">
+                        <button id="btnPrint" class="btn btn-custom-print w-100">In lịch</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="javascript/bai12.js"></script>
+</body>
+</html>
