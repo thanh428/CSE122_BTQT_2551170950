@@ -1,5 +1,4 @@
 document.getElementById('btnPrint').addEventListener('click', function() {
-    // Lấy giá trị từ các ô input
     let dayVal = parseInt(document.getElementById('inputDay').value);
     let monthVal = parseInt(document.getElementById('inputMonth').value);
     let yearVal = parseInt(document.getElementById('inputYear').value);
