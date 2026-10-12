@@ -44,9 +44,13 @@
 .wonder-title {
     color: #1b5e20;
     font-weight: bold;
+    padding-top: 12px;
+    padding-left: 10px;
 }
 
 .wonder-desc {
     color: #333;
     font-size: 0.95rem;
+    padding-left: 10px;
+    padding-bottom: 12px;
 }
