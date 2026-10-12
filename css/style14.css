@@ -1,0 +1,52 @@
+.main-header {
+    background-color: #2E7D32;
+    color: #FFEB3B;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.75rem;
+    transition: background-color 0.3s ease;
+}
+
+.intro-text {
+    color: #1b5e20;
+    font-style: italic;
+}
+
+.divider-line {
+    border: 0;
+    height: 1px;
+    background-color: #d3d3d3;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.wonder-card {
+    border: 1px solid #2E7D32;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wonder-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.2);
+}
+
+.wonder-img {
+    border-bottom: 2px solid #2E7D32;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.wonder-title {
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+.wonder-desc {
+    color: #333;
+    font-size: 0.95rem;
+}
