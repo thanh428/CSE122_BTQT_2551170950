@@ -1,4 +1,4 @@
-let tasks = [
+        let tasks = [
             { text: "Đọc chương HTML5 cơ bản", completed: true },
             { text: "Làm bài tập CSS Grid", completed: false },
             { text: "Quay video OBS nộp bài", completed: false }

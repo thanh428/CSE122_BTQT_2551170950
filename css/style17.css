@@ -1,0 +1,79 @@
+body {
+            background-color: #fcfbf9;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .register-container {
+            max-width: 580px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .register-card {
+            background-color: #FFFFFF;
+            border: 2px solid #fed7aa;
+            border-radius: 12px;
+            padding: 35px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        .form-title {
+            color: #c2410c;
+            font-weight: 700;
+            font-size: 1.6rem;
+            margin-bottom: 5px;
+        }
+        .form-subtitle {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+        }
+        .form-label {
+            font-weight: bold;
+            color: #212529;
+            margin-bottom: 6px;
+        }
+        .form-control {
+            border-radius: 6px;
+            padding: 10px 14px;
+            border: 1px solid #ced4da;
+        }
+        .form-control:focus {
+            box-shadow: none;
+        }
+        .input-error {
+            border-color: #dc2626 !important;
+            background-color: #fef2f2 !important;
+        }
+        .input-success {
+            border-color: #16a34a !important;
+        }
+        .error-msg {
+            color: #dc2626;
+            font-size: 0.88rem;
+            margin-top: 4px;
+        }
+        .success-msg {
+            color: #16a34a;
+            font-size: 0.88rem;
+            margin-top: 4px;
+        }
+        .btn-register {
+            background-color: #c2410c;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding: 12px;
+            border-radius: 6px;
+            border: none;
+            width: 100%;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+        .btn-register:hover {
+            background-color: #9a3206;
+            color: #FFFFFF;
+        }
+        .footer-text {
+            text-align: center;
+            color: #888;
+            font-size: 0.85rem;
+            margin-top: 25px;
+        }
