@@ -1,0 +1,102 @@
+body {
+            background-color: #f3f4f6;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .app-card {
+            width: 100%;
+            max-width: 600px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        .app-header {
+            background-color: #6d28d9;
+            color: #ffffff;
+            padding: 28px 24px;
+        }
+        .custom-btn {
+            background-color: #6d28d9;
+            color: #ffffff;
+            border: none;
+        }
+        .custom-btn:hover {
+            background-color: #5b21b6;
+            color: #ffffff;
+        }
+        .task-item {
+            border-bottom: 1px dashed #ede9fe;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .task-item:last-child {
+            border-bottom: none;
+        }
+        .task-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            flex: 1;
+        }
+        .custom-checkbox {
+            width: 22px;
+            height: 22px;
+            border: 2px solid #a78bfa;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+        .task-item.completed .custom-checkbox {
+            background-color: #6d28d9;
+            border-color: #6d28d9;
+        }
+        .custom-checkbox::after {
+            content: '';
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+            display: none;
+        }
+        .task-item.completed .custom-checkbox::after {
+            display: block;
+        }
+        .task-text {
+            font-size: 15px;
+            color: #1f2937;
+        }
+        .task-item.completed .task-text {
+            text-decoration: line-through;
+            color: #9ca3af;
+        }
+        .delete-btn {
+            background-color: #fde2e2;
+            color: #b91c1c;
+            border: none;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .delete-btn:hover {
+            background-color: #fcc2c2;
+            color: #b91c1c;
+        }
+        .app-footer {
+            padding: 20px 24px;
+            background-color: #faf5ff;
+            border-top: 1px solid #f3f4f6;
+            color: #4b5563;
+            font-size: 14px;
+            font-weight: 500;
+        }
