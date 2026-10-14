@@ -1,0 +1,61 @@
+body {
+    background-color: #fffdf9;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.main-title {
+    color: #E65100;
+    font-weight: bold;
+}
+
+.sub-title {
+    color: #E65100;
+    font-weight: bold;
+}
+
+.drop-cap p:first-of-type::first-letter {
+    font-size: 3.5rem;
+    color: #E65100;
+    float: left;
+    line-height: 0.8;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.flower-img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 190px;
+    height: 180px;
+}
+
+.flavor-box {
+    border: 2px solid #2E7D32;
+    background-color: #f4fbf4;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.flavor-title {
+    color: #2E7D32;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.flavor-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-image: url('images/icon_list_c.gif');
+    padding-left: 20px;
+}
+
+.flavor-list li {
+    margin-bottom: 10px;
+}
