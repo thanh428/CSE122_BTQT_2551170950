@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style20.css">
+</head>
+<body>
+    <svg style="position: absolute; width: 0; height: 0;" aria-hidden="true">
+        <filter id="waveFilter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.02 0.15" numOctaves="2" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+    </svg>
+
+    <main>
+        <section>
+            <figure>
+                <img id="roseImg" src="images/hoahong.gif" alt="Hoa hồng" class="effect-gray">
+            </figure>
+            <p>Special For You</p>
+        </section>
+
+        <nav aria-label="Bộ lọc hiệu ứng">
+            <button type="button" class="active" data-effect="effect-gray">Gray</button>
+            <button type="button" data-effect="effect-xray">Xray</button>
+            <button type="button" data-effect="effect-invert">Invert</button>
+            <button type="button" data-effect="effect-fliph">FlipH</button>
+            <button type="button" data-effect="effect-flipv">FlipV</button>
+            <button type="button" data-effect="effect-glow">Glow</button>
+            <button type="button" data-effect="effect-shadow">Shadow</button>
+            <button type="button" data-effect="effect-boldshadow">Bold Shadow</button>
+            <button type="button" data-effect="effect-dropshadow">DropShadow</button>
+            <button type="button" data-effect="effect-blur">Blur</button>
+            <button type="button" data-effect="effect-wave">Wave</button>
+            <button type="button" data-effect="effect-mask">Mask</button>
+            <button type="button" data-effect="effect-alpha">Alpha</button>
+        </nav>
+    </main>
+    <script src="javascript/bai20.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    background-color: #0b0f19;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 650px;
+    width: 100%;
+    padding: 20px;
+}
+
+section {
+    background-color: #1c2226;
+    border-radius: 12px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(1);
+    transition: all 0.3s ease;
+}
+
+p {
+    margin: 0;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #232b30 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    font-size: 0.9rem !important;
+    transition: background-color 0.2s ease !important;
+}
+
+button.active {
+    background-color: #0d6efd !important;
+}
+
+.effect-gray {
+    filter: grayscale(1);
+}
+
+.effect-xray {
+    filter: grayscale(1) invert(1);
+}
+
+.effect-invert {
+    filter: invert(1);
+}
+
+.effect-fliph {
+    transform: scaleX(-1);
+}
+
+.effect-flipv {
+    transform: scaleY(-1);
+}
+
+.effect-glow {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.effect-shadow {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
+}
+
+.effect-boldshadow {
+    filter: drop-shadow(10px 10px 15px rgba(255, 255, 255, 0.5));
+}
+
+.effect-dropshadow {
+    filter: drop-shadow(4px 4px 8px rgba(13, 110, 253, 0.7));
+}
+
+.effect-blur {
+    filter: blur(3px);
+}
+
+.effect-wave {
+    filter: url(#waveFilter);
+}
+
+.effect-mask {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.2));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.2));
+}
+
+.effect-alpha {
+    opacity: 0.4;
+}
