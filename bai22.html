@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style22.css">
+</head>
+<body class="toi">
+    <main class="container py-4">
+        <header class="row align-items-center mb-4">
+            <h1 class="col h4 mb-0">Chế độ Tối / Sáng</h1>
+            <nav class="col-auto">
+                <div class="form-check form-switch fs-4 mb-0">
+                    <input class="form-check-input" type="checkbox" role="switch" id="themeSwitch" checked>
+                </div>
+            </nav>
+        </header>
+
+        <section class="vstack gap-3">
+            <article class="p-3 rounded-3 info-card">
+                <h2 class="h5 fw-bold mb-1 card-title-custom">Biến CSS (CSS Variables)</h2>
+                <p class="mb-0">Toàn bộ màu sắc được khai báo trong :root và ghi đè bằng class .toi.</p>
+            </article>
+
+            <article class="p-3 rounded-3 info-card">
+                <h2 class="h5 fw-bold mb-1 card-title-custom">Chuyển đổi bằng JavaScript</h2>
+                <p class="mb-0">Nút gạt thêm/bỏ class .toi trên &lt;body&gt; — mọi thành phần tự đổi màu.</p>
+            </article>
+
+            <article class="p-3 rounded-3 info-card">
+                <h2 class="h5 fw-bold mb-1 card-title-custom">Chuyển màu mượt</h2>
+                <p class="mb-0">Dùng transition để màu nền và chữ chuyển dần, không bị giật.</p>
+            </article>
+        </section>
+
+        <footer class="mt-4 pt-2">
+            <p id="statusText" class="small mb-0">Đây là giao diện ở chế độ TỐI (đang bật).</p>
+        </footer>
+    </main>
+
+    <script src="javascript/bai22.js"></script>
+</body>
+</html>

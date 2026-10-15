@@ -1,0 +1,43 @@
+:root {
+    --bg-main: #ffffff;
+    --chu: #212529;
+    --nhan: #0d6efd;
+    --the: #f8f9fa;
+    --vien: #dee2e6;
+}
+
+body.toi {
+    --bg-main: #0f172a;
+    --chu: #e2e8f0;
+    --nhan: #38bdf8;
+    --the: #1e293b;
+    --vien: #334155;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--chu);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-height: 100vh;
+}
+
+.info-card {
+    background-color: var(--the);
+    border: 1px solid var(--vien);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.card-title-custom {
+    color: var(--nhan);
+}
+
+.form-check-input {
+    cursor: pointer;
+    background-color: #60a5fa;
+    border-color: #60a5fa;
+}
+
+.form-check-input:checked {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
