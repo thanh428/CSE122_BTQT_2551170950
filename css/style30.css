@@ -1,0 +1,47 @@
+body {
+background-color: #eef2f5;
+font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+aside.sidebar {
+width: 230px;
+background-color: #212529;
+}
+
+aside.sidebar .nav-link {
+border-radius: 6px;
+padding: 0.6rem 1rem;
+font-size: 0.95rem;
+transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+aside.sidebar .nav-link:hover {
+background-color: rgba(255, 255, 255, 0.08);
+color: #ffffff !important;
+}
+
+aside.sidebar .nav-link.active {
+background-color: #0d6efd !important;
+color: #ffffff !important;
+}
+
+main.main-content {
+background-color: #eef2f5;
+overflow-y: auto;
+}
+
+.progress-bar-bg {
+height: 6px;
+background-color: #e9ecef;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.progress-bar-fill {
+height: 100%;
+border-radius: 10px;
+}
+
+.badge.bg-info {
+background-color: #0dcaf0 !important;
+}
